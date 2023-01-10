@@ -2,15 +2,11 @@ const algosdk = require("algosdk");
 const {AtomicTransactionComposer } = require("algosdk");
 
 const faucet_addr = "GD64YIY3TWGDMCNPP553DZPPR6LDUSFQOIJVFDPPXWEG3FVOJCCDBBHU5A"
-// const server = "http://hackathon.algodev.network"
-// const token = "ef920e2e7e002953f4b29a8af720efe8e4ecc75ff102b165e0472834b25832c1"
-// const port = 9100;
-const token = '2f3203f21e738a1de6110eba6984f9d03e5a95d7a577b34616854064cf2c0e7b';
-const server = 'https://academy-algod.dev.aws.algodev.network/';
-const port = '';
-// const token = '';
-// const server = 'https://testnet-api.algonode.cloud';
-// const port = '';
+// TestNet
+const token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+const server = "http://localhost";
+const port = 4001;
+
 
 const client = new algosdk.Algodv2(token, server, port);
 const txids = [];
