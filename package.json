@@ -1,0 +1,22 @@
+{
+  "name": "atomic-transactions",
+  "version": "1.0.0",
+  "description": "Sample using Atomic Composer",
+  "main": "atomicTransactionComposer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algorand-devrel/atomic-transactions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algorand-devrel/atomic-transactions/issues"
+  },
+  "homepage": "https://github.com/algorand-devrel/atomic-transactions#readme",
+  "dependencies": {
+    "algosdk": "^2.0.0"
+  }
+}
